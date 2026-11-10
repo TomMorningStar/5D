@@ -1,0 +1,13 @@
+{
+  "name": "film-tickets",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "node --env-file=.env server/index.js",
+    "dev:server": "node --env-file=.env --watch server/index.js",
+    "dev:client": "cd client && npm run dev"
+  },
+  "engines": { "node": ">=22.13" }
+}

@@ -1,0 +1,46 @@
+/*
+  ====== НАСТРОЙКА ВНЕШНЕГО ВИДА ======
+  Все цвета, шрифты и размеры - здесь. Меняйте значения, остальные файлы трогать не нужно.
+  После правки: npm run build (или перезапуск start.bat / start.sh).
+*/
+:root {
+  /* --- Цвета интерфейса --- */
+  --color-bg: #0f1420;            /* фон страницы */
+  --color-surface: #1a2133;       /* карточки, панели */
+  --color-surface-2: #232c42;     /* поля ввода, строки таблиц */
+  --color-border: #2f3a55;
+  --color-text: #eef1f8;
+  --color-muted: #94a0bd;         /* второстепенный текст */
+  --color-primary: #7c5cff;       /* главные кнопки, акценты */
+  --color-primary-hover: #8f74ff;
+  --color-primary-text: #ffffff;
+  --color-success: #2fbf71;
+  --color-warning: #f0a93b;
+  --color-danger: #ef5b6b;
+
+  /* --- Шрифт и формы --- */
+  --font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif;
+  --font-size-base: 16px;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+
+  /* --- Большие кнопки фильмов у оператора --- */
+  --film-button-min-width: 260px;
+  --film-button-height: 150px;
+  --film-title-size: 1.5rem;
+  --film-time-size: 2rem;
+
+  /* --- НОМЕРОК НА ТЕРМОПРИНТЕРЕ (печатается чёрным на белом) --- */
+  --ticket-width: 58mm;           /* 58mm или 80mm - ширина вашей ленты */
+  --ticket-height: 80mm;          /* высота листа; лишнее обычно не печатается */
+  --ticket-padding: 3mm;
+  --ticket-font-family: Arial, 'Segoe UI', sans-serif;
+  --ticket-color: #000000;
+  --ticket-brand-size: 14pt;
+  --ticket-film-size: 13pt;
+  --ticket-number-size: 38pt;     /* номер: A001 */
+  --ticket-label-size: 10pt;      /* «Приходите к» */
+  --ticket-time-size: 44pt;       /* время: 18:30 */
+  --ticket-small-size: 9pt;       /* дата, подпись */
+}
